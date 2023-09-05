@@ -1,0 +1,73 @@
+body {
+    background-color: #00d9ff;
+    font-family: Arial, sans-serif;
+}
+
+.teacher-panel, .msg {
+    background-color: #00ff08;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.teacher-panel h1, .msg {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #444;
+}
+
+.message-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.message-button {
+    background-color: #ffe346;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hidden-message {
+    display: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.iimg {
+
+    background-color: #0059ff;
+    border-radius: 4%;
+    
+
+}
+
+.btn {
+    
+   text-align: center;
+    
+    color: aliceblue;
+    
+}
+#showButton {
+     background-color: #ff0077;
+    font-size: 28px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8%;
+    margin-top: 4px;
+    padding-top: 4px;
+
+     
+}
