@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Teachers' Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .teacher-panel {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .teacher-panel h1 {
+            font-size: 36px;
+            text-shadow: 2px 2px 4px #444;
+        }
+
+        .message-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .message-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .hidden-message {
+            display: none;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="teacher-panel">
+    <h1><b>Happy Teachers' Day!</b></h1>
+</div>
+
+<div class="message-container">
+    <button class="message-button" onclick="showMessage()">Click to Reveal a Special Message</button>
+    <p id="message" class="hidden-message">Dear Teacher, you inspire us to reach for the best in ethics and personality development <br>! Thank you for all you do.</p>
+</div>
+
+<script>
+    function showMessage() {
+        var message = document.getElementById("message");
+        if (message.style.display === "none" || message.style.display === "") {
+            message.style.display = "block";
+        } else {
+            message.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
