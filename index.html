@@ -1,69 +1,35 @@
+<!---page 1 with link sheet and to acess nift material-->
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Happy Teachers' Day</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-        body {
-            background-color: #f2f2f2;
-            font-family: Arial, sans-serif;
-        }
+        <link rel="stylesheet" type="text/css" href="style.css">
+     
+        <style>
+            
+        </style>
+    </head>
+    <body>
+<br><br><br>
+       
+       <p class="btn"> <button id="showButton" ><p >Click Me</p></button></p>
+        <div id="hiddenDiv" style="display: none;">
+            <div class="teacher-panel">
+                <h1><b style="text-align:center;">Happy Teachers' Day!<br> Satish sir 😇</b></h1>
+            </div> <br>
+            <br>  <br>
+            <div class="message-container">
+                <p id="message" class="hidden-message" style="text-align:center;"> 
+                     <p style="text-align:center;" class="iimg"> <br><br><br>.<img src="Java.jpg" > <br><br><br>.</p> <br>
+                     <p class="msg">Dear Teacher❣️, you inspire us to reach for the best in subject, ethics and personality development <br>! Thank you for all you do.❣️<br><br><br></p></p>
+            </div>
+    
+        </div>
 
-        .teacher-panel {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .teacher-panel h1 {
-            font-size: 36px;
-            text-shadow: 2px 2px 4px #444;
-        }
-
-        .message-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .message-button {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        .hidden-message {
-            display: none;
-            font-size: 18px;
-            margin-top: 10px;
-        }
-    </style>
-</head>
-<body>
-<div class="teacher-panel">
-    <h1><b style="text-align:center;">Happy Teachers' Day!<br> Satish sir 😇</b></h1>
-</div> <br>
-<br> <div> <p style="text-align:center;"><img src="Javasir.jpg" > </p>
- </div> <br>
-<div class="message-container">
-    <button class="message-button" onclick="showMessage()">Click to see the secret 🤫</button>
-    <p id="message" class="hidden-message" style="text-align:center;"> Dear Teacher❣️, you inspire us to reach for the best in ethics and personality development <br>! Thank you for all you do.❣️</p>
-</div>
-
-<script>
-    function showMessage() {
-        var message = document.getElementById("message");
-        if (message.style.display === "none" || message.style.display === "") {
-            message.style.display = "block";
-        } else {
-            message.style.display = "none";
-        }
-    }
-</script>
-</body>
-</html>
+<br><br><br>
+<!--  script file-->
+        <script src="script.js"></script>   
+<!---/ script file-->
+    </body>
+    </html>
